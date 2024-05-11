@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Portfolio</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="portfolio">
+        <nav>
+
+            <div class="logo">
+                <h2>Ganesh</h2>
+            </div>
+
+            <input type="checkbox" id="click">
+            <label for="click" class="mobile_menu">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero_section">
+
+            <div class="image_section">
+                <img src="images/hero_image.jpg" alt="Main Image" width="300">
+            </div>
+
+            <div class="text_section">
+                <h3>Hi, Myself <span>Ganesh Penta</span></h3>
+                <h4>Java Full Stack Developer</h4>
+
+                <p>I'm Penta Ganesh, a full-stack developer and passion for tackling complex challenges. With expertise
+                    in a wide
+                    range of technologies including Spring Boot, Spring MVC, Spring Data JPA, Angular CLI, HTML, CSS,
+                    Typescript, JavaScript, OracleSQL, MySql, Core Java, I have the ability to build robust, scalable
+                    and user-friendly applications across the entire stack.</p>
+                <div class="socialMedia">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                </div>
+
+
+
+
+
+                <div class="buttons">
+                    <button type="submit" class="primary_btn">Hire Me</button>
+                    <button type="submit">Download CV</button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h1 class="h-primary center myWork color">My Work </h1>
+            <div class="placevid-info-left">
+
+                <div class="placevid">
+                    <!-- <video src="./images/BillsLedger.png" controls muted loop autoplay></video> -->
+                    <img class="pojectImage" src="./images/BillsLedger.png" alt="" width="500px">
+                </div>
+                <div class="placeinfo">
+                    <h1 class="placename"><span>Bills Ledger</span></h1>
+                    <p class="placeinformation">
+                        A bills ledger is a financial record of all transactions made by a company or organization. This
+                        ledger helps in keeping track of all the expenses incurred, funds available, and transfer of
+                        funds. In this project, I developed a web-based application that will allow users to login based
+                        on their roles and I have implemented authentication and authorization based on user roles.
+
+                    </p>
+                </div>
+            </div>
+            <div class="placevid-info-right">
+                <div class="placeinfo1">
+                    <h1 class="placename1">Travel Blog</h1>
+                    <p class="placeinformation1">
+                        A travel blog project typically includes travel guides, personal anecdotes, photographs, and sometimes videos to engage readers and inspire them to explore new places. The blog can cover various aspects of travel such as budgeting, accommodation, transportation, food, culture, and adventure activities, catering to different interests and preferences of travelers. The goal is to provide valuable information and inspiration for fellow travelers while building a community of like-minded individuals passionate about exploring the world.
+
+                    </p>
+                </div>
+
+                <div class="placevid1">
+                    <img class="pojectImage" src="./images/TravelBlog.png" alt="" width="500px">
+                </div>
+            </div>
+            <div class="placevid-info-left">
+                <div class="placevid">
+                    <img class="pojectImage" src="./images/FoodRestaurant.png" alt="" width="500px">
+                </div>
+                <div class="placeinfo">
+                    <h1 class="placename">Food Restaurant</h1>
+                    <p class="placeinformation">
+                        A restaurant project involves conceptualizing and setting up a dining establishment that offers delicious food, exceptional service, and a welcoming ambiance to patrons. From choosing a cuisine and designing a menu to selecting a location and crafting a unique atmosphere, every aspect of the project aims to create a memorable dining experience. The focus may be on a specific type of cuisine, such as Italian, Asian fusion, or vegan, and the restaurant may cater to different dining preferences. 
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section id="contact">
+            <h1 class="h-primary center color">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="name" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="name" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="Message">Message:</label>
+                        <textarea name="name" id="Message" cols="30" rows="3"></textarea>
+
+                        <div class="buttons">
+                            <button type="submit" class="primary_btn">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+</body>
+
+</html>
